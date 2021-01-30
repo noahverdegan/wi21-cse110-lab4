@@ -31,5 +31,7 @@
     F. true
 16. The == operator performs automatic conversions (like converting true to 1 in 2==true) before comparing, while the === operator performs no conversions and just returns false if the types are not the same.
 17. "How are you?" gets printed because the first conditional becomes 2==1 which is false, and the second conditional is converted to true, so that block is executed. 
+
 19\. \[6,8,10\], First, modifyArray is called on \[1,2,3\] and doSomething. In the for loop, doSomething is called on 1 and the function defined in the loop. doSomething calls the function defined in the loop on 1+2, and the function in the loop returns 6 which is ultimately pushed to newArr. Essentially each value in the original array is incremented by 2 and then multiplied by 2, giving \[6,8,10\] as the final result. 
+
 21\. 1432
